@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MegaQuiz/static/css/main.50a68540.css",
+    "main.js": "/MegaQuiz/static/js/main.dd2d31e6.js",
+    "index.html": "/MegaQuiz/index.html",
+    "main.50a68540.css.map": "/MegaQuiz/static/css/main.50a68540.css.map",
+    "main.dd2d31e6.js.map": "/MegaQuiz/static/js/main.dd2d31e6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50a68540.css",
+    "static/js/main.dd2d31e6.js"
+  ]
+}
