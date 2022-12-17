@@ -1,39 +1,55 @@
-.App {
-  text-align: center;
+body {
+    background-color: #D6DBF5;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.spinner {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0 -100px 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
+.quiz {
+    background-image: url("assets/topRight.png"), url("assets/bottomLeft.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: top right, bottom left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.Card {
+    color: #293264;
+    margin: 1rem;
+    font-size: 1.3em;
+    width: 60%;
 }
 
-.App-link {
-  color: rgb(112, 76, 182);
+@media only screen and (max-width: 600px) {
+    .Card {
+        width: 90%
+    }
 }
 
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
+.questions {
 }
+
+.options {
+    display: flex;
+    flex-direction: column;
+}
+
+.option {
+    border: 1px solid #4D5B9E;
+    margin: 10px;
+    padding: 0 35px;
+    width: auto;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: #eeeeee;
+}
+
